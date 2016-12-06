@@ -56,6 +56,7 @@
   "peerDependencies": {},
   "dependencies": {
     "babylon": "6.14.1",
+    "esformatter": "^0.9.5",
     "esformatter-ignore": "^0.1.3",
     "extend": "3.0.0",
     "js-beautify": "1.6.4"
