@@ -21,6 +21,9 @@
   "precommit": [
     "npm run test"
   ],
+  "bin": {
+		"esformatter-jsx": "./bin/esformatter-jsx.js"
+  },
   "scripts": {
     "autofix": "npm run eslint -- --fix",
     "_lint": "eslint --cache --cache-location='.cache/' -f 'node_modules/eslint-friendly-formatter' ",
